@@ -1,0 +1,39 @@
+.gridRows {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 67px;
+  justify-content: space-between;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 0.6px solid var(--other-line, #b7bec7);
+  background: var(--neutral-white, #fff);
+}
+
+.tr {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.row {
+  position: relative;
+  display: flex;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  align-self: stretch;
+}
+.txtrow {
+  position: relative;
+  display: flex;
+  flex: 1;
+  color: var(--text-primary, #0f2744);
+  text-align: center;
+  /* Body/Semibold 14 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}

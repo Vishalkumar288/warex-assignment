@@ -1,0 +1,51 @@
+.gridHeader {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  height: 45px;
+  justify-content: space-between;
+  background: var(--secondary-dark, #bbcadf);
+}
+.th {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.head {
+  position: relative;
+  display: flex;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+.txtheader {
+  position: relative;
+  color: var(--text-primary, #0f2744);
+  text-align: center;
+
+  /* Body/Semibold 14 */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.sort {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+.poly1 {
+  width: 8px;
+  height: 6px;
+  fill: var(--text-secondary, #607088);
+  background: url(ploy1.svg);
+}
+.poly2 {
+  width: 8px;
+  height: 6px;
+  fill: var(--text-secondary, #607088);
+  background: url(poly2.svg);
+}

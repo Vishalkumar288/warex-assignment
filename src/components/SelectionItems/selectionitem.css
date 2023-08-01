@@ -1,0 +1,36 @@
+.selectionItems {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 20px;
+  padding: 10px 12px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+
+.selectionItems:hover{
+  background-color: #bbcadf;
+}
+.selectionicons {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectiontext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}

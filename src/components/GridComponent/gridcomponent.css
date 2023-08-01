@@ -1,0 +1,7 @@
+.gridComponent {
+  position: relative;
+  display:flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  flex-direction: column;
+}

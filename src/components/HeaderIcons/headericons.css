@@ -1,0 +1,15 @@
+.headerIcons{
+    position: relative;
+    display: flex;
+    border-radius: 100%;
+}
+
+.headerIconContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    border:1px solid #E6EAEE;
+    border-radius: 100%;
+}

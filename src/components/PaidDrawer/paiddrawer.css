@@ -1,0 +1,296 @@
+.paidDrawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1440px;
+  height: 900px;
+}
+.visible {
+  position: absolute;
+  width: 920px;
+  height: 900px;
+  background: #000000;
+  background-blend-mode: multiply;
+  opacity: 0.75;
+}
+.PaidDiv {
+  position: absolute;
+  width: 520px;
+  height: 900px;
+  left: 920px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(21, 21, 22, 0.1);
+}
+
+.InvoiceBox {
+  position: absolute;
+  width: 520px;
+  height: 204px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(21, 21, 22, 0.1);
+}
+
+.CustomerPayment {
+  position: relative;
+  width: 520px;
+  height: 235px;
+  top: 214px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(21, 21, 22, 0.1);
+  border: 0.1px solid white;
+}
+
+.Commission {
+  position: relative;
+  width: 520px;
+  height: 223px;
+  top: 224px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(21, 21, 22, 0.1);
+  border: 0.1px solid white;
+}
+.NetPayout {
+  position: relative;
+  width: 520px;
+  height: 216px;
+  top: 234px;
+  background: #ffffff;
+  box-shadow: 0px 8px 24px rgba(21, 21, 22, 0.1);
+  border: 0.1px solid white;
+}
+
+.AmountCloseContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 104px;
+  width: 440px;
+  height: 28px;
+  top: 60px;
+  margin-left: 6.6%;
+}
+
+.AmountContainer1 {
+  display: flex;
+  flex-direction: row;
+  width: 151px;
+  height: 28px;
+  flex: none;
+  order: 0;
+}
+
+.Amount {
+  width: 71px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.002em;
+  color: #0f2744;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon1 {
+  position: relative;
+  display: flex;
+  height: 28px;
+  align-items: center;
+  gap: 8px;
+  flex-basis: 60%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 0.4px solid var(--success-dark, #0f8b6c);
+  color: #0f8b6c;
+  background: var(--success-background, #e8f9f5);
+}
+
+.CloseBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4.2px;
+  gap: 14px;
+  width: 22.4px;
+  height: 22.4px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-radius: 50%;
+}
+.CloseBox:hover {
+  cursor: pointer;
+  background: #dbe3ef;
+}
+.InvoiceDetails {
+  position: relative;
+  width: 180px;
+  height: 52px;
+  top: 85px;
+  margin-left: 6.6%;
+}
+
+.Idetail {
+  width: 180px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #607088;
+}
+.view {
+  float: right;
+  padding-right: 50px;
+  padding-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  color: #2773ff;
+}
+.view:hover {
+  cursor: pointer;
+}
+.CustomerBox {
+  position: relative;
+  width: 440px;
+  height: 167px;
+  margin-top: 32px;
+  margin-left: 34px;
+}
+
+.CustomerHeading {
+  position: relative;
+  justify-content: space-between;
+  width: 280px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  color: #0f2744;
+}
+
+.CustomerTransaction {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 14px;
+  gap: 12px;
+  width: 440px;
+  height: 52px;
+}
+.Transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 46px;
+  width: 440px;
+  height: 20px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.PayAmount {
+  width: 129.78px;
+  height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #607088;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.AmountPaid {
+  width: 85.78px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  color: #0f2744;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.Date {
+  margin: 0 auto;
+  width: 101.37px;
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #0f2744;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.ComissionContainer {
+  position: relative;
+  width: 440px;
+  height: 155px;
+  margin-top: 32px;
+  margin-left: 34px;
+}
+
+.ComissionHeading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 440px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  color: #0f2744;
+}
+.CDetails {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  color: #0f2744;
+}
+.DownloadDetails {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2773ff;
+}
+.DownloadDetails:hover {
+  cursor: pointer;
+}

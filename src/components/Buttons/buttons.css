@@ -1,0 +1,33 @@
+.button-paid {
+  position: relative;
+  display: flex;
+  height: 28px;
+  align-items: center;
+  gap: 8px;
+  flex-basis: 60%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 0.4px solid var(--success-dark, #0f8b6c);
+  color: #0f8b6c;
+  background: var(--success-background, #e8f9f5);
+}
+
+.button-partiallypaid {
+  position: relative;
+  display: flex;
+  height: 28px;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 0.4px solid var(--warning-dark, #cc9d42);
+  background: var(--warning-background, #fff9ee);
+  color: #cc9d42;
+}
+
+.button-paid,.button-partiallypaid :hover{
+  cursor: pointer;
+}

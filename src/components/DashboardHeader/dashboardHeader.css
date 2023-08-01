@@ -1,0 +1,12 @@
+.dashboardHeader {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  align-self: stretch;
+  background: #fff;
+  padding: 10px;
+
+  /* Dropshadow standard */
+  box-shadow: 0px 8px 24px 0px rgba(21, 21, 22, 0.04);
+}
